@@ -10,6 +10,16 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from data_preparation import main as prep_data
 
+# Try to import plotly for enhanced visualizations
+try:
+    import plotly.express as px
+    import plotly.graph_objects as go
+    from plotly.subplots import make_subplots
+    HAS_PLOTLY = True
+except ImportError:
+    HAS_PLOTLY = False
+    print("Plotly not installed. Using matplotlib for all visualizations.")
+
 # Set Seaborn style
 sns.set(style='whitegrid', palette='muted', font_scale=1.2)
 
@@ -29,8 +39,17 @@ def create_access_burden_indicators(master_df, age_data, spm_data):
     # Get total homeless population by county
     homeless_by_county = master_df[['LOCATION_ID', 'LOCATION', 'TOTAL_HOMELESS']].copy()
     
+    # Ensure LOCATION_ID exists in spm_data
+    if spm_data is not None and 'LOCATION_ID' not in spm_data.columns:
+        spm_data['LOCATION_ID'] = spm_data['Location'].apply(lambda x: f"CA-{x}" if x.isdigit() else x)
+    
     # Get permanent housing placements (M3) for latest year
-    m3_data = spm_data[(spm_data['Metric'] == 'M3') & (spm_data['LOCATION_ID'].isin(master_df['LOCATION_ID']))]
+    if spm_data is None:
+        print("Warning: System performance data not available for access burden indicators")
+        return master_df
+        
+    m3_data = spm_data[spm_data['Metric'] == 'M3'] 
+    m3_data = m3_data[m3_data['LOCATION_ID'].isin(master_df['LOCATION_ID'])]
     
     # Extract latest year column
     latest_col = f'CY{str(latest_year)[2:]}'
@@ -84,12 +103,13 @@ def create_access_burden_indicators(master_df, age_data, spm_data):
         ax2.tick_params(axis='x', labelrotation=45, labelsize=10)
         
         plt.tight_layout()
-        plt.savefig('figures/housing_access_burden.png')
+        plt.savefig('figures/q7_housing_access_burden.png')
         plt.close()
     
     # 2. Create indicator: Emergency shelter utilization rate
     # Get emergency shelter usage (M2) for latest year
-    m2_data = spm_data[(spm_data['Metric'] == 'M2') & (spm_data['LOCATION_ID'].isin(master_df['LOCATION_ID']))]
+    m2_data = spm_data[spm_data['Metric'] == 'M2']
+    m2_data = m2_data[m2_data['LOCATION_ID'].isin(master_df['LOCATION_ID'])]
     
     if latest_col in m2_data.columns:
         m2_latest = m2_data[['LOCATION_ID', latest_col]].rename(columns={latest_col: 'EMERGENCY_SHELTER'})
@@ -131,7 +151,7 @@ def create_access_burden_indicators(master_df, age_data, spm_data):
             ax.text(i, v + 0.02, f'{v:.1%}', ha='center', fontsize=10)
         
         plt.tight_layout()
-        plt.savefig('figures/shelter_utilization_rate.png')
+        plt.savefig('figures/q7_shelter_utilization_rate.png')
         plt.close()
     
     # 3. Create indicator: Vulnerability Index based on demographics
@@ -157,7 +177,7 @@ def create_access_burden_indicators(master_df, age_data, spm_data):
             ax.text(i, v + 0.02, f'{v:.1%}', ha='center', fontsize=10)
         
         plt.tight_layout()
-        plt.savefig('figures/vulnerable_age_proportion.png')
+        plt.savefig('figures/q7_vulnerable_age_proportion.png')
         plt.close()
     
     # 4. Create a composite vulnerability score
@@ -192,7 +212,7 @@ def create_access_burden_indicators(master_df, age_data, spm_data):
         plt.xticks(rotation=45, ha='right')
         
         plt.tight_layout()
-        plt.savefig('figures/vulnerability_score.png')
+        plt.savefig('figures/q7_vulnerability_score.png')
         plt.close()
     
     return master_df
@@ -228,7 +248,16 @@ def create_trend_features(master_df, spm_data):
         slopes = {}
         
         for _, row in metric_data.iterrows():
-            location_id = row['LOCATION_ID']
+            # Get location_id with fallback
+            if 'LOCATION_ID' in row:
+                location_id = row['LOCATION_ID']
+            elif 'Location' in row:
+                # Convert to location_id format
+                location = row['Location']
+                location_id = f"CA-{location}" if location.isdigit() else location
+            else:
+                # Skip if we can't identify the location
+                continue
             
             # Get values for each year
             years = []
@@ -265,13 +294,21 @@ def create_trend_features(master_df, spm_data):
         # Merge with master dataset
         master_df = master_df.merge(slope_df, on='LOCATION_ID', how='left')
         
+        # Skip visualization if Location column is missing
+        if 'Location' not in spm_data.columns:
+            continue
+            
         # Visualize top positive and negative trends
         trend_viz = slope_df.copy()
-        trend_viz = trend_viz.merge(
-            spm_data[['LOCATION_ID', 'Location']].drop_duplicates(), 
-            on='LOCATION_ID', 
-            how='left'
-        )
+        
+        # Try to merge with location names
+        locations_df = spm_data[['LOCATION_ID', 'Location']].drop_duplicates() if 'LOCATION_ID' in spm_data.columns else None
+        
+        if locations_df is not None and not locations_df.empty:
+            trend_viz = trend_viz.merge(locations_df, on='LOCATION_ID', how='left')
+        else:
+            # Create a dummy Location column based on LOCATION_ID
+            trend_viz['Location'] = trend_viz['LOCATION_ID'].apply(lambda x: x.replace('CA-', '') if 'CA-' in x else x)
         
         # Remove extreme values for better visualization
         q1 = trend_viz[f'{metric}_TREND'].quantile(0.25)
@@ -306,7 +343,7 @@ def create_trend_features(master_df, spm_data):
         ax2.tick_params(axis='x', labelrotation=45, labelsize=10)
         
         plt.tight_layout()
-        plt.savefig(f'figures/{metric}_trend.png')
+        plt.savefig(f'figures/q8_{metric}_trend.png')
         plt.close()
     
     # Create a composite trend indicator
@@ -346,16 +383,51 @@ def create_trend_features(master_df, spm_data):
         # Top 10 counties with best trends
         top10_trends = trend_composite.head(10)
         
+        # Ensure non-zero data for visualization
+        if top10_trends['COMPOSITE_TREND'].max() - top10_trends['COMPOSITE_TREND'].min() < 0.01:
+            # If the range is too small, rescale for better visualization
+            top10_trends['COMPOSITE_TREND'] = top10_trends['COMPOSITE_TREND'] * 100
+        
         plt.figure(figsize=(14, 8))
-        sns.barplot(data=top10_trends, x='LOCATION', y='COMPOSITE_TREND', hue='LOCATION', legend=False)
+        bars = plt.bar(top10_trends['LOCATION'], top10_trends['COMPOSITE_TREND'], color='cornflowerblue')
         plt.title('Top 10 Counties with Most Positive Composite Trend', fontsize=16)
         plt.xlabel('County', fontsize=14)
         plt.ylabel('Composite Trend Score', fontsize=14)
         plt.xticks(rotation=45, ha='right')
         
+        # Add value labels to the bars
+        for bar in bars:
+            height = bar.get_height()
+            plt.text(bar.get_x() + bar.get_width()/2., height + 0.01,
+                    f'{height:.2f}', ha='center', va='bottom')
+        
         plt.tight_layout()
-        plt.savefig('figures/composite_trend.png')
+        plt.savefig('figures/q8_composite_trend.png')
         plt.close()
+        
+        # Create interactive version if plotly is available
+        if HAS_PLOTLY:
+            fig = px.bar(
+                top10_trends,
+                x='LOCATION',
+                y='COMPOSITE_TREND',
+                title='Top 10 Counties with Most Positive Composite Trend',
+                labels={'LOCATION': 'County', 'COMPOSITE_TREND': 'Composite Trend Score'},
+                text=[f"{score:.2f}" for score in top10_trends['COMPOSITE_TREND']],
+                color='COMPOSITE_TREND',
+                color_continuous_scale='Viridis'
+            )
+            
+            fig.update_layout(
+                xaxis_tickangle=-45,
+                plot_bgcolor='rgba(240,240,240,0.8)',
+                width=1000,
+                height=600
+            )
+            
+            # Save interactive visualization
+            os.makedirs('interactive', exist_ok=True)
+            fig.write_html('interactive/q8_composite_trend_interactive.html')
     
     return master_df
 
@@ -398,13 +470,14 @@ def cluster_counties(master_df):
     scaled_data = scaler.fit_transform(cluster_data)
     
     # Apply PCA for dimensionality reduction for visualization
-    pca = PCA(n_components=2)
+    pca = PCA(n_components=3)  # Using 3 components for 3D visualization
     pca_result = pca.fit_transform(scaled_data)
     
     # Create DataFrame with PCA results
     pca_df = pd.DataFrame({
         'PCA1': pca_result[:, 0],
-        'PCA2': pca_result[:, 1]
+        'PCA2': pca_result[:, 1],
+        'PCA3': pca_result[:, 2]
     })
     
     # Determine optimal number of clusters using silhouette score
@@ -432,12 +505,15 @@ def cluster_counties(master_df):
     plt.grid(True, alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    plt.savefig('figures/silhouette_scores.png')
+    plt.savefig('figures/q9_silhouette_scores.png')
     plt.close()
     
     # Apply KMeans with the optimal number of clusters
     kmeans = KMeans(n_clusters=best_k, random_state=42, n_init=10)
     cluster_labels = kmeans.fit_predict(scaled_data)
+    
+    # Add cluster labels to the master DataFrame - THIS IS THE KEY FIX
+    master_df['CLUSTER'] = cluster_labels
     
     # Add cluster labels to the PCA DataFrame
     pca_df['Cluster'] = cluster_labels
@@ -488,11 +564,131 @@ def cluster_counties(master_df):
     plt.legend(title='Clusters')
     plt.grid(True, alpha=0.3)
     plt.tight_layout()
-    plt.savefig('figures/county_clusters.png')
+    plt.savefig('figures/q9_county_clusters.png')
     plt.close()
     
-    # Add cluster assignments to master dataset
-    master_df['CLUSTER'] = cluster_labels
+    # Create 3D visualization using Plotly if available
+    if HAS_PLOTLY:
+        # Create a 3D scatter plot with improved aesthetics
+        fig = px.scatter_3d(
+            pca_df, 
+            x='PCA1', 
+            y='PCA2', 
+            z='PCA3',
+            color='Cluster',
+            size='Total Homeless',
+            hover_name='County',
+            hover_data={
+                'Total Homeless': True,
+                'PCA1': False,
+                'PCA2': False,
+                'PCA3': False,
+                'Cluster': False
+            },
+            opacity=0.85,
+            color_continuous_scale='plasma',
+            size_max=60,  # Larger maximum marker size
+            title='3D Visualization of California County Homelessness Clusters',
+            labels={'Cluster': 'Cluster Group'}
+        )
+        
+        # Customize layout for more appeal
+        fig.update_layout(
+            scene=dict(
+                xaxis_title='Principal Component 1',
+                yaxis_title='Principal Component 2',
+                zaxis_title='Principal Component 3',
+                xaxis=dict(showbackground=False, showgrid=True, gridcolor='lightgray'),
+                yaxis=dict(showbackground=False, showgrid=True, gridcolor='lightgray'),
+                zaxis=dict(showbackground=False, showgrid=True, gridcolor='lightgray'),
+                camera=dict(
+                    up=dict(x=0, y=0, z=1),
+                    center=dict(x=0, y=0, z=0),
+                    eye=dict(x=1.5, y=1.5, z=1.2)  # Adjust camera position for better view
+                ),
+                aspectmode='cube'  # Ensure equal scaling
+            ),
+            width=1200,
+            height=900,
+            template='plotly_dark',  # Use dark theme for better contrast
+            margin=dict(l=0, r=0, t=50, b=10),
+            title=dict(
+                text='3D Visualization of California County Homelessness Clusters',
+                font=dict(size=24, color='white')
+            ),
+            legend=dict(
+                title=dict(text='Cluster Groups', font=dict(size=16)),
+                font=dict(size=14)
+            )
+        )
+        
+        # Add text labels for major counties instead of annotations
+        # Get top 5 counties by homeless population
+        top_counties = pca_df.nlargest(5, 'Total Homeless')
+        
+        # Add text markers for these counties
+        for i, row in top_counties.iterrows():
+            fig.add_trace(
+                go.Scatter3d(
+                    x=[row['PCA1']],
+                    y=[row['PCA2']],
+                    z=[row['PCA3']],
+                    mode='text',
+                    text=[row['County']],
+                    textposition='top center',
+                    textfont=dict(size=14, color='white'),
+                    showlegend=False
+                )
+            )
+        
+        # Add custom buttons for different views
+        fig.update_layout(
+            updatemenus=[
+                dict(
+                    type='buttons',
+                    showactive=False,
+                    buttons=[
+                        dict(
+                            label='Reset View',
+                            method='relayout',
+                            args=['scene.camera', dict(
+                                up=dict(x=0, y=0, z=1),
+                                center=dict(x=0, y=0, z=0),
+                                eye=dict(x=1.5, y=1.5, z=1.2)
+                            )]
+                        ),
+                        dict(
+                            label='Top View',
+                            method='relayout',
+                            args=['scene.camera', dict(
+                                up=dict(x=0, y=1, z=0),
+                                center=dict(x=0, y=0, z=0),
+                                eye=dict(x=0, y=0, z=2.5)
+                            )]
+                        ),
+                        dict(
+                            label='Side View',
+                            method='relayout',
+                            args=['scene.camera', dict(
+                                up=dict(x=0, y=0, z=1),
+                                center=dict(x=0, y=0, z=0),
+                                eye=dict(x=2.5, y=0, z=0)
+                            )]
+                        )
+                    ],
+                    direction='down',
+                    pad={'r': 10, 't': 10},
+                    x=0.9,
+                    y=0.1,
+                    xanchor='right',
+                    yanchor='bottom'
+                )
+            ]
+        )
+        
+        # Save as HTML for interactive viewing
+        os.makedirs('interactive', exist_ok=True)
+        fig.write_html('interactive/q9_county_clusters_3d.html')
     
     # Analyze cluster characteristics
     cluster_profiles = master_df.groupby('CLUSTER')[feature_cols].mean()
@@ -533,8 +729,33 @@ def cluster_counties(master_df):
     plt.ylabel('Cluster', fontsize=14)
     plt.xticks(rotation=90)
     plt.tight_layout()
-    plt.savefig('figures/cluster_characteristics.png')
+    plt.savefig('figures/q9_cluster_characteristics.png')
     plt.close()
+    
+    # Create interactive cluster characteristics visualization with Plotly if available
+    if HAS_PLOTLY:
+        # Prepare data for visualization
+        std_cluster_profiles = cluster_profiles.apply(lambda x: (x - x.mean()) / x.std(), axis=0)
+        
+        # Create a heatmap
+        fig = px.imshow(
+            std_cluster_profiles,
+            labels=dict(x="Features", y="Cluster", color="Z-Score"),
+            x=std_cluster_profiles.columns,
+            y=[f"Cluster {i+1}" for i in range(best_k)],
+            color_continuous_scale="RdBu_r",
+            title="Interactive Cluster Characteristics Heatmap"
+        )
+        
+        # Customize layout
+        fig.update_layout(
+            width=1200,
+            height=600,
+            xaxis=dict(tickangle=45)
+        )
+        
+        # Save as HTML for interactive viewing
+        fig.write_html('interactive/q9_cluster_characteristics_interactive.html')
     
     # Create a more detailed profile of each cluster
     cluster_details = {}
@@ -570,6 +791,11 @@ def main():
     """
     # Get data from data preparation module
     master_df, age_data, race_data, gender_data, spm_data, hospital_data, location_mapping = prep_data()
+    
+    # Add LOCATION_ID column to spm_data if it doesn't exist
+    if spm_data is not None and 'LOCATION_ID' not in spm_data.columns:
+        print("Adding LOCATION_ID column to system performance data")
+        spm_data['LOCATION_ID'] = spm_data['Location'].apply(lambda x: f"CA-{x}" if x.isdigit() else x)
     
     # Create access burden indicators
     print("\nFeature Engineering Process:")
