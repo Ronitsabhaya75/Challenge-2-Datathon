@@ -1,0 +1,375 @@
+CALENDAR_YEAR,LOCATION_ID,LOCATION,AGE_GROUP_PUBLIC,EXPERIENCING_HOMELESSNESS_CNT
+OCT 2023 to SEP 2024,All,California,18-24,26553
+OCT 2023 to SEP 2024,All,California,25-34,59572
+OCT 2023 to SEP 2024,All,California,35-44,63855
+OCT 2023 to SEP 2024,All,California,45-54,48424
+OCT 2023 to SEP 2024,All,California,55-64,45417
+OCT 2023 to SEP 2024,All,California,65+,22819
+OCT 2023 to SEP 2024,All,California,Invalid,53
+OCT 2023 to SEP 2024,All,California,Under 18,75277
+OCT 2023 to SEP 2024,All,California,Unknown,7124
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,18-24,1273
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,25-34,2412
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,35-44,2594
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,45-54,1990
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,55-64,1892
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,65+,924
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,Under 18,4480
+OCT 2023 to SEP 2024,CA-500,Santa Clara County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,18-24,2270
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,25-34,4575
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,35-44,4511
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,45-54,2937
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,55-64,2133
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,65+,991
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,Under 18,4696
+OCT 2023 to SEP 2024,CA-501,San Francisco CoC,Unknown,41
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,18-24,1249
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,25-34,2596
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,35-44,2545
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,45-54,2122
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,55-64,2165
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,65+,1084
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,Under 18,2538
+OCT 2023 to SEP 2024,CA-502,Alameda County CoC,Unknown,12
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,18-24,1393
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,25-34,2013
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,35-44,2252
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,45-54,1792
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,55-64,1826
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,65+,858
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,Under 18,4695
+OCT 2023 to SEP 2024,CA-503,Sacramento County CoC,Unknown,13
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,18-24,290
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,25-34,515
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,35-44,668
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,45-54,600
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,55-64,633
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,65+,376
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-504,Sonoma County CoC,Under 18,661
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,18-24,662
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,25-34,1141
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,35-44,1262
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,45-54,1036
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,55-64,1366
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,65+,897
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,Under 18,1813
+OCT 2023 to SEP 2024,CA-505,Contra Costa County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",18-24,381
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",25-34,537
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",35-44,599
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",45-54,425
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",55-64,388
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",65+,216
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",Invalid,*
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",Under 18,1055
+OCT 2023 to SEP 2024,CA-506,"Monterey, San Benito Counties CoC",Unknown,15
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,18-24,113
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,25-34,280
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,35-44,334
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,45-54,262
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,55-64,309
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,65+,202
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,Under 18,476
+OCT 2023 to SEP 2024,CA-507,Marin County CoC,Unknown,36
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,18-24,154
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,25-34,237
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,35-44,288
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,45-54,208
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,55-64,260
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,65+,197
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,Under 18,567
+OCT 2023 to SEP 2024,CA-508,Santa Cruz County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,18-24,74
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,25-34,173
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,35-44,210
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,45-54,181
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,55-64,159
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,65+,88
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,Under 18,373
+OCT 2023 to SEP 2024,CA-509,Mendocino County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,18-24,507
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,25-34,949
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,35-44,1043
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,45-54,822
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,55-64,792
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,65+,311
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,Under 18,1732
+OCT 2023 to SEP 2024,CA-510,Stanislaus County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,18-24,691
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,25-34,1391
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,35-44,1273
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,45-54,787
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,55-64,726
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,65+,375
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,Under 18,4200
+OCT 2023 to SEP 2024,CA-511,San Joaquin County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,18-24,336
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,25-34,831
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,35-44,921
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,45-54,708
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,55-64,732
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,65+,456
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,Under 18,1198
+OCT 2023 to SEP 2024,CA-512,San Mateo County CoC,Unknown,25
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",18-24,448
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",25-34,890
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",35-44,1043
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",45-54,771
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",55-64,562
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",65+,229
+OCT 2023 to SEP 2024,CA-513,"Kings, Tulare Counties CoC",Under 18,1506
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",18-24,853
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",25-34,2042
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",35-44,2687
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",45-54,2179
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",55-64,1772
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",65+,634
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",Under 18,1937
+OCT 2023 to SEP 2024,CA-514,"Fresno, Madera Counties CoC",Unknown,89
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,18-24,222
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,25-34,412
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,35-44,494
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,45-54,417
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,55-64,374
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,65+,180
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,Under 18,376
+OCT 2023 to SEP 2024,CA-515,Placer County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",18-24,172
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",25-34,339
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",35-44,470
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",45-54,302
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",55-64,296
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",65+,169
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Invalid,*
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Under 18,725
+OCT 2023 to SEP 2024,CA-516,"Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",Unknown,17
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,18-24,63
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,25-34,167
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,35-44,206
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,45-54,152
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,55-64,165
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,65+,67
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,Under 18,259
+OCT 2023 to SEP 2024,CA-517,Napa County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,18-24,125
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,25-34,358
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,35-44,353
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,45-54,273
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,55-64,309
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,65+,156
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,Under 18,184
+OCT 2023 to SEP 2024,CA-518,Solano County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,18-24,405
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,25-34,891
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,35-44,1110
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,45-54,691
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,55-64,626
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,65+,335
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,Under 18,1597
+OCT 2023 to SEP 2024,CA-519,Butte County CoC,Unknown,11
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,18-24,241
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,25-34,511
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,35-44,582
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,45-54,442
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,55-64,389
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,65+,189
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-520,Merced County CoC,Under 18,802
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,18-24,98
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,25-34,168
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,35-44,213
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,45-54,148
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,55-64,142
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,65+,73
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,Under 18,441
+OCT 2023 to SEP 2024,CA-521,Yolo County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,18-24,201
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,25-34,395
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,35-44,554
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,45-54,503
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,55-64,410
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,65+,194
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,Under 18,405
+OCT 2023 to SEP 2024,CA-522,Humboldt County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",18-24,36
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",25-34,89
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",35-44,78
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",45-54,58
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",55-64,45
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",65+,32
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",Invalid,*
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",Under 18,230
+OCT 2023 to SEP 2024,CA-523,"Colusa, Glenn, Trinity Counties CoC",Unknown,*
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",18-24,157
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",25-34,415
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",35-44,482
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",45-54,314
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",55-64,288
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",65+,133
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",Invalid,*
+OCT 2023 to SEP 2024,CA-524,"Yuba, Sutter Counties CoC",Under 18,891
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,18-24,50
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,25-34,67
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,35-44,91
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,45-54,71
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,55-64,117
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,65+,65
+OCT 2023 to SEP 2024,CA-525,El Dorado County CoC,Under 18,170
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",18-24,62
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",25-34,131
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",35-44,145
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",45-54,128
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",55-64,114
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",65+,103
+OCT 2023 to SEP 2024,CA-526,"Amador, Calaveras, Mariposa, Tuolumne Counties CoC",Under 18,302
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,18-24,48
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,25-34,97
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,35-44,119
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,45-54,111
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,55-64,113
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,65+,58
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,Under 18,143
+OCT 2023 to SEP 2024,CA-527,Tehama County CoC,Unknown,40
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,18-24,13
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,25-34,40
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,35-44,48
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,45-54,45
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,55-64,63
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,65+,27
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,Under 18,55
+OCT 2023 to SEP 2024,CA-529,Lake County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",18-24,*
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",25-34,*
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",35-44,15
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",45-54,*
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",55-64,*
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",65+,13
+OCT 2023 to SEP 2024,CA-530,"Alpine, Inyo, Mono Counties CoC",Under 18,46
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,18-24,81
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,25-34,215
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,35-44,240
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,45-54,193
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,55-64,180
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,65+,118
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,Under 18,224
+OCT 2023 to SEP 2024,CA-531,Nevada County CoC,Unknown,15
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,18-24,7625
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,25-34,20396
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,35-44,20630
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,45-54,15341
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,55-64,13914
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,65+,6808
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,Under 18,15944
+OCT 2023 to SEP 2024,CA-600,Los Angeles County CoC,Unknown,2610
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,18-24,1989
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,25-34,4377
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,35-44,4864
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,45-54,3980
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,55-64,3981
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,65+,2038
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,Under 18,5731
+OCT 2023 to SEP 2024,CA-601,San Diego County CoC,Unknown,176
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,18-24,1212
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,25-34,3343
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,35-44,3707
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,45-54,2951
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,55-64,2896
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,65+,1395
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,Under 18,3502
+OCT 2023 to SEP 2024,CA-602,Orange County CoC,Unknown,3572
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,18-24,383
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,25-34,633
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,35-44,724
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,45-54,636
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,55-64,644
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,65+,368
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,Under 18,1172
+OCT 2023 to SEP 2024,CA-603,Santa Barbara County CoC,Unknown,45
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,18-24,754
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,25-34,1387
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,35-44,1643
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,45-54,1214
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,55-64,1055
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,65+,399
+OCT 2023 to SEP 2024,CA-604,Kern County CoC,Under 18,1319
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),18-24,355
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),25-34,1158
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),35-44,1425
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),45-54,1175
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),55-64,1240
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),65+,666
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),Under 18,460
+OCT 2023 to SEP 2024,CA-606,Long Beach CoC (Los Angeles County),Unknown,79
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),18-24,109
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),25-34,268
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),35-44,272
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),45-54,225
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),55-64,275
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),65+,139
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),Under 18,206
+OCT 2023 to SEP 2024,CA-607,Pasadena CoC (Los Angeles County),Unknown,25
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,18-24,918
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,25-34,2494
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,35-44,2476
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,45-54,1680
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,55-64,1446
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,65+,786
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,Under 18,3959
+OCT 2023 to SEP 2024,CA-608,Riverside County CoC,Unknown,147
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,18-24,585
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,25-34,1242
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,35-44,1310
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,45-54,957
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,55-64,869
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,65+,450
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,Under 18,2614
+OCT 2023 to SEP 2024,CA-609,San Bernardino County CoC,Unknown,45
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,18-24,218
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,25-34,375
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,35-44,535
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,45-54,528
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,55-64,647
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,65+,376
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,Under 18,467
+OCT 2023 to SEP 2024,CA-611,Ventura County CoC,Unknown,29
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),18-24,50
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),25-34,115
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),35-44,118
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),45-54,108
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),55-64,142
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),65+,89
+OCT 2023 to SEP 2024,CA-612,Glendale CoC (Los Angeles County),Under 18,139
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,18-24,153
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,25-34,229
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,35-44,167
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,45-54,81
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,55-64,69
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,65+,50
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,Invalid,*
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,Under 18,1007
+OCT 2023 to SEP 2024,CA-613,Imperial County CoC,Unknown,*
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,18-24,216
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,25-34,502
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,35-44,627
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,45-54,481
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,55-64,405
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,65+,215
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,Under 18,949
+OCT 2023 to SEP 2024,CA-614,San Luis Obispo County CoC,Unknown,22

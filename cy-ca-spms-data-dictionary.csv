@@ -1,0 +1,14 @@
+Field Name,Field Label,Data Type,Field Definition
+Location,Location (Statewide or CoC),text,"Either the Continuum of Care for which the measures apply, or California if the measures are aggregated statewide"
+Metric,California System Performance Measure or Point in Time Count,text,"M1a: The number of people accessing services who experienced homelessness during the year
+M1b: The number of people who experienced unsheltered homelessness on a single night in the most recent calendar year that the CoC conducted an unsheltered Point in Time Count
+M2: The number of people accessing services who experienced homelessness for the first time during the year (defined as not accessing services while experiencing homelessness in the prior two years)
+M3: The number of people who exited homelessness into permanent housing during the year, including people who exited the homelessness response system to permanent housing and people who moved into permanent housing within the homelessness response system
+M4: The average length of time (in number of days) that people were enrolled in street outreach (SO) or other non-residential projects (while experiencing homelessness), emergency shelter (ES), transitional housing (TH), and safe haven (SH) projects, as well as time during which people were enrolled in, but had not yet moved into, rapid rehousing (RRH), permanent supportive housing (PSH), and other permanent housing (OPH) projects, during the year
+M5: The percent of people who return to homelessness within 6 months of exiting homelessness response system to permanent housing
+M6: The number of people with successful placements from street outreach projects during the year, which includes exits to an emergency shelter (ES), safe haven (SH), transitional housing (TH), or permanent housing (PH) destinations
+PIT Count: The number of people who experienced homelessness on a single night"
+CY20,Measure in CY20,int,"Each location's measure for each metric or data point in calendar year 2020 (from January 1, 2020 to December 31, 2020)"
+CY21,Measure in CY21,int,"Each location's measure for each metric or data point in calendar year 2021 (from January 1, 2021 to December 31, 2021)"
+CY22,Measure in CY22,int,"Each location's measure for each metric or data point in calendar year 2022 (from January 1, 2022 to December 31, 2022)"
+CY23,Measure in CY23,int,"Each location's measure for each metric or data point in calendar year 2023 (from January 1, 2023 to December 31, 2023)"

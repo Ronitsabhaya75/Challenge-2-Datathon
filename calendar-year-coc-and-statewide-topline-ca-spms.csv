@@ -1,0 +1,369 @@
+Location,Metric,CY20,CY21,CY22,CY23
+California,M1a,259358,273881,328908,364034
+CA-500 San Jose/Santa Clara City & County CoC,M1a,11881,13253,16655,18388
+CA-501 San Francisco CoC,M1a,11258,12844,17070,18935
+"CA-502 Oakland, Berkeley/Alameda County CoC",M1a,9088,10766,12806,13811
+CA-503 Sacramento City & County CoC,M1a,10010,11082,14106,18597
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M1a,4425,4350,4573,5024
+CA-505 Richmond/Contra Costa County CoC,M1a,6206,5848,6300,7663
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M1a,2979,3266,3384,3899
+CA-507 Marin County CoC,M1a,1162,1893,1867,2118
+CA-508 Watsonville/Santa Cruz City & County CoC,M1a,2481,2539,2332,2224
+CA-509 Mendocino County CoC,M1a,1132,1488,1717,1604
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M1a,4952,5022,6346,6444
+CA-511 Stockton/San Joaquin County CoC,M1a,8128,7759,11337,11053
+CA-512 Daly City/San Mateo County CoC,M1a,4648,4761,5424,5943
+"CA-513 Visalia/Kings, Tulare Counties CoC",M1a,3626,3238,4216,5067
+CA-514 Fresno City & County/Madera County CoC,M1a,5646,6840,8148,10764
+"CA-515 Roseville, Rocklin/Placer County CoC",M1a,1752,2226,2490,2372
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M1a,1472,2076,2541,2590
+CA-517 Napa City & County CoC,M1a,1373,842,1064,1086
+CA-518 Vallejo/Solano County CoC,M1a,2270,2341,1705,1819
+"CA-519 Chico, Paradise/Butte County CoC",M1a,2058,2168,2625,4573
+CA-520 Merced City & County CoC,M1a,2866,2494,3287,3726
+"CA-521 Davis, Woodland/Yolo County CoC",M1a,1799,1682,1825,1889
+CA-522 Humboldt County CoC,M1a,1919,1691,2374,2580
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M1a,501,686,696,664
+CA-524 Yuba City & County/Sutter County CoC,M1a,1632,2671,3218,3654
+CA-525 El Dorado County CoC,M1a,652,578,677,913
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M1a,701,743,968,941
+CA-527 Tehama County CoC,M1a,645,593,1165,1116
+CA-529 Lake County CoC,M1a,206,422,301,498
+"CA-530 Alpine, Inyo, Mono Counties CoC",M1a,280,258,207,137
+CA-531 Nevada County CoC,M1a,537,969,1297,1373
+CA-600 Los Angeles City & County CoC,M1a,85991,83441,91222,99727
+CA-601 San Diego City & County CoC,M1a,24978,25938,28638,31119
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M1a,13684,17628,27200,29601
+CA-603 Santa Maria/Santa Barbara County CoC,M1a,3180,3506,4187,4562
+CA-604 Bakersfield/Kern County CoC,M1a,4854,7248,9082,9507
+CA-606 Long Beach CoC,M1a,3926,4866,5635,8336
+CA-607 Pasadena CoC,M1a,2177,1824,1862,1918
+CA-608 Riverside City & County CoC,M1a,8349,8819,11796,12908
+CA-609 San Bernardino City & County CoC,M1a,8020,6993,10396,10014
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M1a,2660,2595,3196,3054
+CA-612 Glendale CoC,M1a,631,779,1104,1136
+CA-613 Imperial County CoC,M1a,1202,1615,1954,2300
+CA-614 San Luis Obispo County CoC,M1a,1614,2138,2816,3365
+Los Angeles County,M1a,88858,86911,95566,105976
+California,M1b,113660,N/A,115491,123423
+CA-500 San Jose/Santa Clara City & County CoC,M1b,7922,N/A,7708,7401
+CA-501 San Francisco CoC,M1b,5180,N/A,4397,4397
+"CA-502 Oakland, Berkeley/Alameda County CoC",M1b,6312,N/A,7135,7135
+CA-503 Sacramento City & County CoC,M1b,3900,N/A,6664,6664
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M1b,1702,N/A,2088,1291
+CA-505 Richmond/Contra Costa County CoC,M1b,1570,N/A,2329,1653
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M1b,1998,N/A,1625,1625
+CA-507 Marin County CoC,M1b,708,N/A,830,830
+CA-508 Watsonville/Santa Cruz City & County CoC,M1b,1700,N/A,1774,1426
+CA-509 Mendocino County CoC,M1b,575,N/A,560,410
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M1b,1087,N/A,946,949
+CA-511 Stockton/San Joaquin County CoC,M1b,1558,N/A,1355,1355
+CA-512 Daly City/San Mateo County CoC,M1b,901,N/A,1092,1092
+"CA-513 Visalia/Kings, Tulare Counties CoC",M1b,937,N/A,823,1089
+CA-514 Fresno City & County/Madera County CoC,M1b,2681,N/A,2338,2758
+"CA-515 Roseville, Rocklin/Placer County CoC",M1b,405,N/A,408,407
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M1b,1023,N/A,1096,1434
+CA-517 Napa City & County CoC,M1b,303,N/A,366,349
+CA-518 Vallejo/Solano County CoC,M1b,932,N/A,920,920
+"CA-519 Chico, Paradise/Butte County CoC",M1b,838,N/A,588,580
+CA-520 Merced City & County CoC,M1b,313,N/A,368,390
+"CA-521 Davis, Woodland/Yolo County CoC",M1b,397,N/A,378,378
+CA-522 Humboldt County CoC,M1b,1402,N/A,1309,1309
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M1b,150,N/A,196,180
+CA-524 Yuba City & County/Sutter County CoC,M1b,519,N/A,839,682
+CA-525 El Dorado County CoC,M1b,480,N/A,438,438
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M1b,687,N/A,494,494
+CA-527 Tehama County CoC,M1b,215,N/A,218,247
+CA-529 Lake County CoC,M1b,336,N/A,259,259
+"CA-530 Alpine, Inyo, Mono Counties CoC",M1b,162,N/A,95,74
+CA-531 Nevada County CoC,M1b,251,N/A,243,227
+CA-600 Los Angeles City & County CoC,M1b,46090,N/A,45878,52307
+CA-601 San Diego City & County CoC,M1b,3971,N/A,4106,5171
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M1b,3961,N/A,3057,3057
+CA-603 Santa Maria/Santa Barbara County CoC,M1b,1223,N/A,1367,1202
+CA-604 Bakersfield/Kern County CoC,M1b,1004,N/A,728,1017
+CA-606 Long Beach CoC,M1b,1582,N/A,2287,2482
+CA-607 Pasadena CoC,M1b,294,N/A,280,303
+CA-608 Riverside City & County CoC,M1b,2155,N/A,1980,2441
+CA-609 San Bernardino City & County CoC,M1b,2390,N/A,2389,2976
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M1b,1265,N/A,1356,1633
+CA-612 Glendale CoC,M1b,75,N/A,103,89
+CA-613 Imperial County CoC,M1b,1334,N/A,925,1146
+CA-614 San Luis Obispo County CoC,M1b,1172,N/A,1156,1156
+Los Angeles County,M1b,48041,N/A,48548,55181
+California,M2,140785,144731,176510,189845
+CA-500 San Jose/Santa Clara City & County CoC,M2,6238,6788,8403,8134
+CA-501 San Francisco CoC,M2,4888,5148,8243,9144
+"CA-502 Oakland, Berkeley/Alameda County CoC",M2,4466,5681,6575,6616
+CA-503 Sacramento City & County CoC,M2,4866,5729,7591,9901
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M2,1707,1793,2023,2223
+CA-505 Richmond/Contra Costa County CoC,M2,3025,2876,3166,4015
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M2,1523,1671,1631,2036
+CA-507 Marin County CoC,M2,469,1151,877,1011
+CA-508 Watsonville/Santa Cruz City & County CoC,M2,1270,1143,1089,1025
+CA-509 Mendocino County CoC,M2,581,818,824,622
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M2,2200,2676,3528,3214
+CA-511 Stockton/San Joaquin County CoC,M2,4194,3906,6487,5646
+CA-512 Daly City/San Mateo County CoC,M2,1658,1584,1879,2032
+"CA-513 Visalia/Kings, Tulare Counties CoC",M2,2204,1856,2698,2855
+CA-514 Fresno City & County/Madera County CoC,M2,4256,4427,4506,6070
+"CA-515 Roseville, Rocklin/Placer County CoC",M2,593,916,1022,990
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M2,991,1381,1488,1376
+CA-517 Napa City & County CoC,M2,851,390,534,491
+CA-518 Vallejo/Solano County CoC,M2,1548,1421,895,1140
+"CA-519 Chico, Paradise/Butte County CoC",M2,988,1068,1410,2533
+CA-520 Merced City & County CoC,M2,1819,1399,1863,1909
+"CA-521 Davis, Woodland/Yolo County CoC",M2,1114,829,952,1054
+CA-522 Humboldt County CoC,M2,1352,937,1419,1390
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M2,307,371,342,334
+CA-524 Yuba City & County/Sutter County CoC,M2,997,1397,1625,1687
+CA-525 El Dorado County CoC,M2,438,340,397,551
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M2,433,447,657,559
+CA-527 Tehama County CoC,M2,348,434,824,680
+CA-529 Lake County CoC,M2,176,319,195,351
+"CA-530 Alpine, Inyo, Mono Counties CoC",M2,220,168,118,63
+CA-531 Nevada County CoC,M2,181,478,589,547
+CA-600 Los Angeles City & County CoC,M2,44883,40247,42758,48788
+CA-601 San Diego City & County CoC,M2,14679,14368,15232,16478
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M2,7671,11383,18795,18966
+CA-603 Santa Maria/Santa Barbara County CoC,M2,1662,1854,2265,2395
+CA-604 Bakersfield/Kern County CoC,M2,3196,4761,5298,4869
+CA-606 Long Beach CoC,M2,2240,2634,3140,4744
+CA-607 Pasadena CoC,M2,720,675,778,781
+CA-608 Riverside City & County CoC,M2,5397,5667,7730,7839
+CA-609 San Bernardino City & County CoC,M2,5413,4353,7517,6158
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M2,1453,1389,1681,1407
+CA-612 Glendale CoC,M2,316,389,513,574
+CA-613 Imperial County CoC,M2,873,1061,1155,1515
+CA-614 San Luis Obispo County CoC,M2,802,1266,1694,1780
+Los Angeles County,M2,46637,42318,45355,52673
+California,M3,53097,52995,63801,70503
+CA-500 San Jose/Santa Clara City & County CoC,M3,3023,3375,3857,4640
+CA-501 San Francisco CoC,M3,2371,3164,4645,4625
+"CA-502 Oakland, Berkeley/Alameda County CoC",M3,2075,2727,2684,2634
+CA-503 Sacramento City & County CoC,M3,2867,2526,2857,3634
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M3,934,991,988,1109
+CA-505 Richmond/Contra Costa County CoC,M3,1000,931,2294,3941
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M3,722,441,722,914
+CA-507 Marin County CoC,M3,378,457,455,590
+CA-508 Watsonville/Santa Cruz City & County CoC,M3,662,636,552,574
+CA-509 Mendocino County CoC,M3,227,268,344,315
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M3,616,391,522,794
+CA-511 Stockton/San Joaquin County CoC,M3,707,706,1066,1178
+CA-512 Daly City/San Mateo County CoC,M3,936,881,996,1070
+"CA-513 Visalia/Kings, Tulare Counties CoC",M3,976,729,1178,1483
+CA-514 Fresno City & County/Madera County CoC,M3,1213,1345,1411,2104
+"CA-515 Roseville, Rocklin/Placer County CoC",M3,431,352,656,446
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M3,424,465,591,600
+CA-517 Napa City & County CoC,M3,302,189,187,302
+CA-518 Vallejo/Solano County CoC,M3,292,285,274,355
+"CA-519 Chico, Paradise/Butte County CoC",M3,397,349,278,1088
+CA-520 Merced City & County CoC,M3,345,240,840,973
+"CA-521 Davis, Woodland/Yolo County CoC",M3,662,572,708,758
+CA-522 Humboldt County CoC,M3,359,281,507,456
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M3,171,226,229,243
+CA-524 Yuba City & County/Sutter County CoC,M3,269,642,720,971
+CA-525 El Dorado County CoC,M3,121,107,142,152
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M3,343,346,454,441
+CA-527 Tehama County CoC,M3,60,86,323,181
+CA-529 Lake County CoC,M3,71,137,95,70
+"CA-530 Alpine, Inyo, Mono Counties CoC",M3,78,75,37,63
+CA-531 Nevada County CoC,M3,84,130,166,223
+CA-600 Los Angeles City & County CoC,M3,11642,11932,14064,13456
+CA-601 San Diego City & County CoC,M3,5353,5155,5085,5119
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M3,3259,3107,3773,3429
+CA-603 Santa Maria/Santa Barbara County CoC,M3,952,783,1039,1183
+CA-604 Bakersfield/Kern County CoC,M3,1300,1627,1560,1759
+CA-606 Long Beach CoC,M3,1373,687,646,951
+CA-607 Pasadena CoC,M3,423,305,206,231
+CA-608 Riverside City & County CoC,M3,2533,2474,2800,3645
+CA-609 San Bernardino City & County CoC,M3,3127,2448,2950,3010
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M3,676,504,668,598
+CA-612 Glendale CoC,M3,120,136,180,254
+CA-613 Imperial County CoC,M3,318,516,804,824
+CA-614 San Luis Obispo County CoC,M3,495,498,493,757
+Los Angeles County,M3,12788,12525,14646,14303
+California,M4,138,153,149,146
+CA-500 San Jose/Santa Clara City & County CoC,M4,116,125,130,141
+CA-501 San Francisco CoC,M4,161,222,183,155
+"CA-502 Oakland, Berkeley/Alameda County CoC",M4,185,167,143,145
+CA-503 Sacramento City & County CoC,M4,170,175,150,123
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M4,141,165,162,169
+CA-505 Richmond/Contra Costa County CoC,M4,101,118,125,113
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M4,146,144,166,154
+CA-507 Marin County CoC,M4,159,117,137,134
+CA-508 Watsonville/Santa Cruz City & County CoC,M4,153,197,190,151
+CA-509 Mendocino County CoC,M4,112,140,175,207
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M4,96,99,102,123
+CA-511 Stockton/San Joaquin County CoC,M4,67,81,67,77
+CA-512 Daly City/San Mateo County CoC,M4,293,339,343,357
+"CA-513 Visalia/Kings, Tulare Counties CoC",M4,82,125,123,108
+CA-514 Fresno City & County/Madera County CoC,M4,70,105,124,122
+"CA-515 Roseville, Rocklin/Placer County CoC",M4,262,266,276,178
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M4,128,127,141,182
+CA-517 Napa City & County CoC,M4,82,130,133,180
+CA-518 Vallejo/Solano County CoC,M4,84,112,136,116
+"CA-519 Chico, Paradise/Butte County CoC",M4,154,148,124,117
+CA-520 Merced City & County CoC,M4,103,158,202,202
+"CA-521 Davis, Woodland/Yolo County CoC",M4,107,145,121,129
+CA-522 Humboldt County CoC,M4,88,134,135,135
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M4,153,176,188,173
+CA-524 Yuba City & County/Sutter County CoC,M4,53,96,111,105
+CA-525 El Dorado County CoC,M4,65,79,104,119
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M4,117,121,120,151
+CA-527 Tehama County CoC,M4,54,55,70,97
+CA-529 Lake County CoC,M4,42,40,68,72
+"CA-530 Alpine, Inyo, Mono Counties CoC",M4,35,67,116,177
+CA-531 Nevada County CoC,M4,126,117,154,171
+CA-600 Los Angeles City & County CoC,M4,159,178,184,175
+CA-601 San Diego City & County CoC,M4,100,107,122,129
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M4,126,112,94,99
+CA-603 Santa Maria/Santa Barbara County CoC,M4,114,118,125,127
+CA-604 Bakersfield/Kern County CoC,M4,110,107,103,106
+CA-606 Long Beach CoC,M4,121,110,122,90
+CA-607 Pasadena CoC,M4,118,117,114,132
+CA-608 Riverside City & County CoC,M4,95,100,92,88
+CA-609 San Bernardino City & County CoC,M4,105,122,92,103
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M4,116,146,163,197
+CA-612 Glendale CoC,M4,96,60,53,49
+CA-613 Imperial County CoC,M4,133,175,187,173
+CA-614 San Luis Obispo County CoC,M4,111,112,132,159
+Los Angeles County,M4,159,177,183,172
+California,M5,0.099,0.094,0.112,0.110
+CA-500 San Jose/Santa Clara City & County CoC,M5,0.132,0.071,0.164,0.153
+CA-501 San Francisco CoC,M5,0.141,0.095,0.123,0.145
+"CA-502 Oakland, Berkeley/Alameda County CoC",M5,0.105,0.165,0.186,0.199
+CA-503 Sacramento City & County CoC,M5,0.094,0.088,0.113,0.118
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M5,0.083,0.067,0.107,0.091
+CA-505 Richmond/Contra Costa County CoC,M5,0.118,0.143,0.090,0.171
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M5,0.080,0.046,0.106,0.080
+CA-507 Marin County CoC,M5,0.047,0.135,0.097,0.139
+CA-508 Watsonville/Santa Cruz City & County CoC,M5,0.084,0.056,0.060,0.106
+CA-509 Mendocino County CoC,M5,0.154,0.015,0.119,0.080
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M5,0.064,0.098,0.091,0.076
+CA-511 Stockton/San Joaquin County CoC,M5,0.093,0.156,0.192,0.097
+CA-512 Daly City/San Mateo County CoC,M5,0.087,0.070,0.138,0.104
+"CA-513 Visalia/Kings, Tulare Counties CoC",M5,0.144,0.043,0.107,0.141
+CA-514 Fresno City & County/Madera County CoC,M5,0.098,0.068,0.141,0.102
+"CA-515 Roseville, Rocklin/Placer County CoC",M5,0.098,0.177,0.022,0.099
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M5,0.140,0.048,0.025,0.049
+CA-517 Napa City & County CoC,M5,0.000,0.100,0.100,0.080
+CA-518 Vallejo/Solano County CoC,M5,0.130,0.102,0.063,0.189
+"CA-519 Chico, Paradise/Butte County CoC",M5,0.174,0.041,0.016,0.326
+CA-520 Merced City & County CoC,M5,0.175,0.127,0.078,0.056
+"CA-521 Davis, Woodland/Yolo County CoC",M5,0.080,0.049,0.115,0.083
+CA-522 Humboldt County CoC,M5,0.087,0.103,0.092,0.277
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M5,0.065,0.057,0.045,0.000
+CA-524 Yuba City & County/Sutter County CoC,M5,0.000,0.196,0.094,0.050
+CA-525 El Dorado County CoC,M5,0.053,0.060,0.133,0.000
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M5,0.133,0.071,0.194,0.094
+CA-527 Tehama County CoC,M5,0.261,0.000,0.000,0.024
+CA-529 Lake County CoC,M5,0.000,0.143,0.063,0.053
+"CA-530 Alpine, Inyo, Mono Counties CoC",M5,0.042,0.067,0.000,0.023
+CA-531 Nevada County CoC,M5,0.200,0.044,0.077,0.192
+CA-600 Los Angeles City & County CoC,M5,0.067,0.096,0.076,0.084
+CA-601 San Diego City & County CoC,M5,0.161,0.109,0.138,0.135
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M5,0.104,0.096,0.089,0.082
+CA-603 Santa Maria/Santa Barbara County CoC,M5,0.092,0.160,0.179,0.105
+CA-604 Bakersfield/Kern County CoC,M5,0.108,0.153,0.168,0.140
+CA-606 Long Beach CoC,M5,0.049,0.096,0.075,0.087
+CA-607 Pasadena CoC,M5,0.045,0.050,0.048,0.116
+CA-608 Riverside City & County CoC,M5,0.065,0.093,0.092,0.140
+CA-609 San Bernardino City & County CoC,M5,0.117,0.056,0.165,0.065
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M5,0.115,0.075,0.091,0.101
+CA-612 Glendale CoC,M5,0.188,0.040,0.037,0.056
+CA-613 Imperial County CoC,M5,0.059,0.214,0.095,0.044
+CA-614 San Luis Obispo County CoC,M5,0.102,0.075,0.165,0.083
+Los Angeles County,M5,0.062,0.094,0.074,0.086
+California,M6,8061,10071,12104,16619
+CA-500 San Jose/Santa Clara City & County CoC,M6,205,245,362,350
+CA-501 San Francisco CoC,M6,20,14,13,25
+"CA-502 Oakland, Berkeley/Alameda County CoC",M6,29,53,60,65
+CA-503 Sacramento City & County CoC,M6,101,67,228,241
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",M6,97,171,227,207
+CA-505 Richmond/Contra Costa County CoC,M6,813,596,1809,3691
+"CA-506 Salinas/Monterey, San Benito Counties CoC",M6,16,13,12,30
+CA-507 Marin County CoC,M6,0,31,18,8
+CA-508 Watsonville/Santa Cruz City & County CoC,M6,0,0,0,0
+CA-509 Mendocino County CoC,M6,0,0,1,0
+"CA-510 Turlock, Modesto/Stanislaus County CoC",M6,10,34,40,57
+CA-511 Stockton/San Joaquin County CoC,M6,2,1,1,3
+CA-512 Daly City/San Mateo County CoC,M6,5,6,41,11
+"CA-513 Visalia/Kings, Tulare Counties CoC",M6,70,76,91,120
+CA-514 Fresno City & County/Madera County CoC,M6,102,664,398,536
+"CA-515 Roseville, Rocklin/Placer County CoC",M6,12,28,17,22
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",M6,0,4,71,7
+CA-517 Napa City & County CoC,M6,6,8,25,44
+CA-518 Vallejo/Solano County CoC,M6,0,0,1,0
+"CA-519 Chico, Paradise/Butte County CoC",M6,0,0,0,21
+CA-520 Merced City & County CoC,M6,60,21,37,18
+"CA-521 Davis, Woodland/Yolo County CoC",M6,0,3,17,7
+CA-522 Humboldt County CoC,M6,23,31,50,22
+"CA-523 Colusa, Glenn, Trinity Counties CoC",M6,0,1,2,0
+CA-524 Yuba City & County/Sutter County CoC,M6,0,3,8,19
+CA-525 El Dorado County CoC,M6,2,3,1,40
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",M6,0,19,1,5
+CA-527 Tehama County CoC,M6,0,5,0,0
+CA-529 Lake County CoC,M6,0,0,0,0
+"CA-530 Alpine, Inyo, Mono Counties CoC",M6,24,8,0,0
+CA-531 Nevada County CoC,M6,11,11,62,28
+CA-600 Los Angeles City & County CoC,M6,2351,4267,3840,6221
+CA-601 San Diego City & County CoC,M6,2063,1460,1943,1655
+"CA-602 Santa Ana, Anaheim/Orange County CoC",M6,1296,1564,1527,1921
+CA-603 Santa Maria/Santa Barbara County CoC,M6,34,43,121,91
+CA-604 Bakersfield/Kern County CoC,M6,20,28,67,65
+CA-606 Long Beach CoC,M6,255,18,106,236
+CA-607 Pasadena CoC,M6,29,53,56,66
+CA-608 Riverside City & County CoC,M6,216,252,546,699
+CA-609 San Bernardino City & County CoC,M6,199,180,299,71
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",M6,25,124,45,44
+CA-612 Glendale CoC,M6,11,44,21,8
+CA-613 Imperial County CoC,M6,4,32,4,18
+CA-614 San Luis Obispo County CoC,M6,0,0,22,42
+Los Angeles County,M6,2606,4287,3947,6455
+California,PIT Count,161548,N/A,171521,181399
+CA-500 San Jose/Santa Clara City & County CoC,PIT Count,9605,N/A,10028,9903
+CA-501 San Francisco CoC,PIT Count,8124,N/A,7754,7582
+"CA-502 Oakland, Berkeley/Alameda County CoC",PIT Count,8137,N/A,9747,9759
+CA-503 Sacramento City & County CoC,PIT Count,5511,N/A,9278,9281
+"CA-504 Santa Rosa, Petaluma/Sonoma County CoC",PIT Count,2745,N/A,2893,2266
+CA-505 Richmond/Contra Costa County CoC,PIT Count,2277,N/A,3093,2372
+"CA-506 Salinas/Monterey, San Benito Counties CoC",PIT Count,2683,N/A,2404,2212
+CA-507 Marin County CoC,PIT Count,1032,N/A,1121,1118
+CA-508 Watsonville/Santa Cruz City & County CoC,PIT Count,2256,N/A,2299,1804
+CA-509 Mendocino County CoC,PIT Count,751,N/A,830,633
+"CA-510 Turlock, Modesto/Stanislaus County CoC",PIT Count,2107,N/A,1857,2091
+CA-511 Stockton/San Joaquin County CoC,PIT Count,2677,N/A,2319,2454
+CA-512 Daly City/San Mateo County CoC,PIT Count,1572,N/A,1808,1859
+"CA-513 Visalia/Kings, Tulare Counties CoC",PIT Count,1297,N/A,1235,1470
+CA-514 Fresno City & County/Madera County CoC,PIT Count,3641,N/A,4216,4493
+"CA-515 Roseville, Rocklin/Placer County CoC",PIT Count,744,N/A,750,709
+"CA-516 Redding/Shasta, Siskiyou, Lassen, Plumas, Del Norte, Modoc, Sierra Counties CoC",PIT Count,1529,N/A,1837,2521
+CA-517 Napa City & County CoC,PIT Count,464,N/A,495,506
+CA-518 Vallejo/Solano County CoC,PIT Count,1162,N/A,1179,1200
+"CA-519 Chico, Paradise/Butte County CoC",PIT Count,1274,N/A,1006,1237
+CA-520 Merced City & County CoC,PIT Count,636,N/A,855,784
+"CA-521 Davis, Woodland/Yolo County CoC",PIT Count,641,N/A,746,737
+CA-522 Humboldt County CoC,PIT Count,1701,N/A,1648,1656
+"CA-523 Colusa, Glenn, Trinity Counties CoC",PIT Count,261,N/A,340,360
+CA-524 Yuba City & County/Sutter County CoC,PIT Count,721,N/A,1094,963
+CA-525 El Dorado County CoC,PIT Count,663,N/A,511,491
+"CA-526 Amador, Calaveras, Mariposa, Tuolumne Counties CoC",PIT Count,834,N/A,625,731
+CA-527 Tehama County CoC,PIT Count,300,N/A,291,304
+CA-529 Lake County CoC,PIT Count,357,N/A,339,460
+"CA-530 Alpine, Inyo, Mono Counties CoC",PIT Count,184,N/A,140,88
+CA-531 Nevada County CoC,PIT Count,387,N/A,527,492
+CA-600 Los Angeles City & County CoC,PIT Count,63706,N/A,65111,71320
+CA-601 San Diego City & County CoC,PIT Count,7638,N/A,8427,10264
+"CA-602 Santa Ana, Anaheim/Orange County CoC",PIT Count,6978,N/A,5718,6050
+CA-603 Santa Maria/Santa Barbara County CoC,PIT Count,1897,N/A,1962,1887
+CA-604 Bakersfield/Kern County CoC,PIT Count,1580,N/A,1603,1948
+CA-606 Long Beach CoC,PIT Count,2034,N/A,3296,3447
+CA-607 Pasadena CoC,PIT Count,527,N/A,512,556
+CA-608 Riverside City & County CoC,PIT Count,2884,N/A,3316,3725
+CA-609 San Bernardino City & County CoC,PIT Count,3125,N/A,3333,4195
+"CA-611 Oxnard, San Buenaventura/Ventura County CoC",PIT Count,1787,N/A,2248,2441
+CA-612 Glendale CoC,PIT Count,169,N/A,225,195
+CA-613 Imperial County CoC,PIT Count,1527,N/A,1057,1303
+CA-614 San Luis Obispo County CoC,PIT Count,1423,N/A,1448,1532
+Los Angeles County,PIT Count,66436,N/A,69144,75518

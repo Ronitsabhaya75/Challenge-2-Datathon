@@ -1,0 +1,7 @@
+Field Title,Field Name,Data Type,Description
+Encounter Type,EncounterType,Plain Text,Inpatient (IP) Hospitalization or Emergency Department (ED) Visit
+Demographic Category,Demographic,Plain Text,"AgeGroup, RaceGroup, Sex, Expected Payer  Note: Unknown age and Unknown sex are not included.  Other Payer includes Workers’ Compensation, Other Government, Title V, Disability, VA Plan, Other Payer, invalid, and missing."
+Demographic Category Value,DemographicValue,Plain Text,Value for demographic category.
+Year,Year,Plain Text,Year of inpatient hospitalization discharge or emergency department visit.
+Homeless Encounters,Homeless,Number,Count of Homeless inpatient hospitalization discharges or emergency department visits per demographic category value.
+All Encounters,All,Number,Count of All inpatient hospitalization discharges or emergency department visits per demographic category value.

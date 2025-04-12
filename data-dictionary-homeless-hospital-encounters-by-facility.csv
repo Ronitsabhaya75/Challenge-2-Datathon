@@ -1,0 +1,18 @@
+Field Title,Field Name,Data Type,Description
+Encounter Type,EncounterType,Plain Text,Inpatient (IP) Hospitalization or Emergency Department (ED) Visit
+Hospital County,HospitalCounty,Plain Text,The county where the treating hospital is located
+OSHPD ID,OSHPD_ID,Plain Text,The 6-digit hospital identifier
+Facility Name,FacilityName,Plain Text,The name of the treating hospital
+Health System,System,Plain Text,"The name of common ownership and/or association for a group of facilities.  For this product, only health systems which operated three or more hospitals are listed"
+Hospital Ownership Type,Ownership,Plain Text,"The hospital's ownership type (Government, Investor, or Non-Profit)"
+Urban Rural Designation,Urban_Rural,Plain Text,Indicates if hospital has an Urban or Rural (includes Rural/Frontier) designation
+Teaching Hospital Designation,Teaching,Plain Text,Indicates if the hospital is designated as a teaching hospital
+Licensed Bed Size,LicensedBedSize,Plain Text,Indicates the hospital's number of licensed beds
+Primary Care Shortage Area,PrimaryCareShortageArea,Plain Text,Indicates if the hospital is located in a Health Professional Shortage Area (HPSA) for Primary Care
+Mental Health Shortage Area,MentalHealthShortageArea,Plain Text,Indicates if the hospital is located in a Health Professional Shortage Area (HPSA) for Mental Health Care
+Homeless Indicator,HomelessIndicator,Plain Text,Indicates if the data is for Homeless or Non-Homeless encounters
+Demographic Category,Demographic,Plain Text,"Age, Race, Sex, or (Expected) Payer  Note: Unknown age and Unknown sex are not included.  Other Payer includes Workers’ Compensation, Other Government, Title V, Disability, VA Plan, Other Payer, invalid, and missing"
+Demographic Category Value,DemographicValue,Plain Text,Value for demographic category
+Encounters,Encounters,Number,"Count of inpatient hospitalizations (i.e., discharges) or emergency department visits"
+Total Hospital Encounters,TotalEncounters,Number,"Total inpatient hospitalizations or emergency department visits per hospital.  Note: the total hospital encounters may be slightly less for age and sex (versus race and expected payer) due to the exclusion of ""Unknown"" from age and sex"
+Percent,Percent,Number,Calculation: Encounters/Total Hospital Encounters x 100
