@@ -1,5 +1,13 @@
 # California Homelessness Data Analysis Pipeline
 
+```
+Team member:
+Ronitkumar Sabhaya
+Zaineel Mithani
+Bardan Dhakal
+Talha Nadeem
+```
+
 ## Overview
 This project provides a comprehensive data analysis pipeline for California homelessness data. It processes demographic, system performance, and hospital utilization data to create insights, predictive models, and targeted funding recommendations for addressing homelessness across California counties.
 
@@ -126,9 +134,3 @@ Recommendations are generated based on:
 - Unexpected patterns identified in residual analysis
 
 This provides an evidence-based approach for resource allocation.
-
-## License
-[Specify the license]
-
-## Contributors
-[List contributors] 
